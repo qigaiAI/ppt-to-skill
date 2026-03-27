@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find D:pycharmpy_fileppt_processor1.3 -not -path */.venv* -not -path */.idea* -type f)",
+      "WebSearch",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(pip install:*)",
+      "Bash(python scripts/extractor_ppt.py \"test/OpenClaw与SKILLS技能系统.pptx\")"
+    ]
+  }
+}
